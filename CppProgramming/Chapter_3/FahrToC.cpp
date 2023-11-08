@@ -21,7 +21,7 @@ int main()
 
     cout << "화씨 온도 : ";
     cin >> fTemp;                                   // 화씨 온도 : 75
-    cTemp = FahrToC(fTemp);         // 함수호출
+    cTemp = FahrToC(fTemp);         // 함수호출(값 복사)
     cout << "---> 섭씨 온도 : " <<  cTemp << endl;     // 섭씨 온도 : 23.8889
     
     return 0;
