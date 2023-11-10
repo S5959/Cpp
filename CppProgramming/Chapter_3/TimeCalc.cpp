@@ -1,3 +1,7 @@
+/**
+ * p.98 ~ p.99
+ * 소스코드 3-9
+*/
 #include<iostream>
 using namespace std;
 
