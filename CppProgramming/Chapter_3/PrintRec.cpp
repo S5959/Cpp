@@ -2,6 +2,7 @@
  * p.92 ~ p.93
  * 소스코드 3-6
 */
+
 #include<iostream>
 using namespace std;
 
