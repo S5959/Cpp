@@ -1,5 +1,5 @@
 /**
- * 소스코드 4-12 (p.141)
+ * 소스코드 4-12(p.141)
 */
 
 #include<iostream>
@@ -15,6 +15,6 @@ int main()
     cout << endl;
     v2.print();
     cout << endl;
-    
+
     return 0;
 }
