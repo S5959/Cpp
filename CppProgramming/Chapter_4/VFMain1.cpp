@@ -1,7 +1,6 @@
 /**
  * 소스코드 4-12(p.141)
 */
-
 #include<iostream>
 using namespace std;
 #include "VecF.h"

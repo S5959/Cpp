@@ -1,5 +1,5 @@
 /**
- * 소스코드 4-11 (p.140)
+ * 소스코드 4-11 (p.140), 소스코드 4-13 (p.143)
 */
 #ifndef VEC_F_H_INCLUDED
 #define VEC_F_H_INCLUDED
@@ -15,6 +15,10 @@ public:
     VecF(int d, float* a=nullptr) : n (d) {
         arr = new float[d];
         if (a) memcpy(arr, a, sizeof(float) * n);
+    }
+    VecF(const VecF& fv) : n (fv.n) {
+        arr = new float[n];
+        memcpy(arr, fv.arr, sizeof(float)*n);
     }
     ~VecF() {
         delete[] arr;
