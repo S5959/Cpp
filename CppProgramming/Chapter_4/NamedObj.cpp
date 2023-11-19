@@ -1,13 +1,13 @@
 /**
  * 소스코드 4-17 (p.152)
 */
-#include    <cstring>
-#include    "NamedObj.h"
+#include <cstring>
+#include "NamedObj.h"
 
 NamedObj::NamedObj(const char *s)
 {
     name = new char[strlen(s) +1];   // 문자열을 복사할 공간을 할당
-    // strcpy(name, s); // ###### 오류가 발생함 이유 파악 필요 ㅠㅠ
+    // strcpy(name, s); // ###### 오류가 발생함 이유 파악 필요
     id = ++nConstr;     // 생성된 객체의 수를 증가시키고 이를 ID로 부여
 }
 
