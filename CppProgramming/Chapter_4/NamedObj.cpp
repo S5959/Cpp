@@ -7,7 +7,7 @@
 NamedObj::NamedObj(const char *s)
 {
     name = new char[strlen(s) +1];   // 문자열을 복사할 공간을 할당
-    // strcpy(name, s); // ###### 오류가 발생함 이유 파악 필요
+    strncpy(name, s, strlen(name)); // 오류남
     id = ++nConstr;     // 생성된 객체의 수를 증가시키고 이를 ID로 부여
 }
 
@@ -20,3 +20,8 @@ NamedObj::~NamedObj()
 // static 데이터 멤버의 정의 및 초기화
 int NamedObj::nConstr = 0;
 int NamedObj::nDestr = 0;
+
+int main()
+{
+    return 0;
+}
