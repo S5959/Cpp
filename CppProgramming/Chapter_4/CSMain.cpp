@@ -2,7 +2,7 @@
  * 소스코드 4-20 (p.160)
 */
 #include<iostream>
-#include "CharStack.h"
+#include "CharStack.cpp"
 using namespace std;
 
 int main()

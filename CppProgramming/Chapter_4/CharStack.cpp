@@ -21,10 +21,5 @@ char CharStack::pop()
         cout << "스택에 데이터가 없습니다." << endl;
         return 0;
     }
-    return buf[++top];      // top 위치의 데이터 반환
-}
-
-int main()
-{
-    return 0;
+    return buf[top++];      // top 위치의 데이터 반환
 }
