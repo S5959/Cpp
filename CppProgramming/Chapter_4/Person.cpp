@@ -2,6 +2,7 @@
  * 소스코드 4-9(p.131)
 */
 #include <iostream>
+#define _CRT_SECURE_NO_WARNINGS
 #include <cstring>
 #include "Person.h"
 using namespace std;
