@@ -26,5 +26,4 @@ public:
     // 소스코드 5-13
     bool operator==(const Complex2& c) const;
 };
-
 #endif
