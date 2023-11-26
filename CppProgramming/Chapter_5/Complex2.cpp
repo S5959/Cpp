@@ -51,12 +51,14 @@ bool Complex2::operator==(const Complex2& c) const
     return rPart == c.rPart && iPart == c.iPart;
 }
 
+// 소스코드 5-14
 ostream& operator<<(ostream& os, const Complex2& c)
 {
-    os << "(" << c.rPart;   // 실수부 출력
-    if (c.iPart > 0) os << "+j" << c.iPart;     // 허수부 출력
-    else if (c.iPart < 0) os << "-j" << c.iPart;
+    // os << "(" << c.rPart;   // 실수부 출력
+    // if (c.iPart > 0) os << "+j" << c.iPart;     // 허수부 출력
+    // else if (c.iPart < 0) os << "-j" << c.iPart;
     cout << ")";
 
     return os;
 }
+
